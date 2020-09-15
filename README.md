@@ -23,3 +23,8 @@ Para correr la aplicación ejecutar `npm start`
   2.3 Creación de estructura del Main y sus estilos.<br />
   2.4 Creación de Rutas para la App.<br />
 
+## 3. Integración de Componentes - Home:<br />
+  3.1 Creación del folder: Home.<br />
+  3.2 Creación de estructura del Home y sus estilos.<br />
+  3.3 Creación de estructura del HomeContent y sus estilos.<br />
+  3.4 Añadido Home a las rutas.<br />
