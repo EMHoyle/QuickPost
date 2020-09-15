@@ -26,8 +26,8 @@ const menuItems = [
     },
     {
       listIcon: <LibraryBooksIcon></LibraryBooksIcon>,
-      listText: "Post",
-      listPath: "/post"
+      listText: "Posts",
+      listPath: "/posts"
     }
 ];
 
