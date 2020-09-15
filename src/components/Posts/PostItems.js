@@ -24,7 +24,7 @@ const PostItems = ({
   const classes = PostStyles();
 
   return (
-    <Card className={classes.root}>
+    <Card className={classes.card}>
       <CardHeader
         avatar={
           <Avatar aria-label="user" className={classes.avatar} src={avatar} />
@@ -52,9 +52,8 @@ const PostItems = ({
         {url && <Link href="#">{url}</Link>}
         <Divider />
         <Box>
-          <FavoriteIcon color="primary" fontSize="small" />
-          <Box>{likes}</Box>
-          <Box>{date}</Box>
+          <Box className={classes.like}><FavoriteIcon color="primary" fontSize="small" />{likes} likes</Box>
+          <Box className={classes.date}>{date}</Box>
         </Box>
         <Divider />
       </CardContent>

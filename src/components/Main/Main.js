@@ -22,7 +22,7 @@ const menuItems = [
     {
       listIcon: <HomeWorkIcon></HomeWorkIcon>,
       listText: "Home",
-      listPath: "/"
+      listPath: "/home"
     },
     {
       listIcon: <LibraryBooksIcon></LibraryBooksIcon>,

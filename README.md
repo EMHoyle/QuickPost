@@ -13,9 +13,9 @@ Para correr la aplicación ejecutar `npm start`
 ## 1. Inicio de la aplicación:<br />
   1.1 Creación de app vía `create-react.app`.<br />
   1.2 Instalación de `react-router-dom`.<br />
-  1.5 Instalación de las dependencias de `Material UI`: `npm install @material-ui/core @material-ui/icons`.<br />
-  1.3 Instalación de `Axios`: `npm install axios`.<br />
-  1.4 Optimización de estructura.<br />
+  1.3 Instalación de las dependencias de `Material UI`: `npm install @material-ui/core @material-ui/icons`.<br />
+  1.4 Instalación de `Axios`: `npm install axios`.<br />
+  1.5 Optimización de estructura.<br />
 
 ## 2. Integración de Componentes - Main:<br />
   2.1 Creación del folder: `Components`.<br />
@@ -32,8 +32,8 @@ Para correr la aplicación ejecutar `npm start`
 ## 4. Integración de Lógica - Helpers + Hooks:<br />
   4.1 Creación del folder: `helpers`.<br />
   4.2 Creación de estructura para uso de Data con Axios a través de `getDummyApiData`.<br />
-  4.4 Creación de folder: `hooks`.<br />
-  4.5 Creación de lógica para el empleo de GET en la App a través de `useGetPostApi`.<br />
+  4.3 Creación de folder: `hooks`.<br />
+  4.4 Creación de lógica para el empleo de GET en la App a través de `useGetPostApi`.<br />
 
 ## 5. Integración de Componentes - Posts:<br />
   5.1 Creación del folder: `Posts`.<br />
@@ -42,3 +42,8 @@ Para correr la aplicación ejecutar `npm start`
   5.4 Creación de estructura del Grid a través de `PostsGrid`.<br />
   5.5 Creación de estructura de Posts a través de `Posts`.<br />
   5.6 Implementación de estilos con `PostStyles.js`.<br />
+
+## 6. Integración de Componentes - Login:<br />
+  6.1 Creación del folder: `Login`.<br />
+  6.2 Creación de estructura de Login y Estilos (sólo muestra).<br />
+  6.3 Añadido Login a las rutas.<br />

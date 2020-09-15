@@ -1,20 +1,23 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch,} from 'react-router-dom';
+import { BrowserRouter as Router, Redirect, Route, Switch,} from 'react-router-dom';
 import Home from './components/Home/Home';
-import MainDrawer from './components/Main/Main';
-import Posts from './components/Posts/Posts'
+import Posts from './components/Posts/Posts';
+import Login from './components/Login/Login';
 
 function App() {
   return (
+    <>
     <Router>
       <div>
-        <MainDrawer/>
         <Switch>
-          <Route exact path="/"><Home/></Route>
+          <Route exact path="/" component={Login}/>
+          <Route exact path="/home"><Home/></Route>
           <Route exact path="/posts"><Posts/></Route>
+          <Redirect to="/home"/>
         </Switch>
       </div>
     </Router>
+    </>
   );
 }
 

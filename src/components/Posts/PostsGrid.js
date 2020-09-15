@@ -4,8 +4,10 @@ import useGetPostsApi from "../../hooks/useGetPostsApi";
 import PostItems from "./PostItems";
 import PropTypes from "prop-types";
 import { Divider } from "@material-ui/core";
+import PostStyles from "./PostStyles";
 
 const PostsGrid = ({ tag }) => {
+  const classes = PostStyles();
   const { data: posts, loading, error } = useGetPostsApi(tag);
   return (
     <>
@@ -13,7 +15,7 @@ const PostsGrid = ({ tag }) => {
       {loading && <p>Loading...</p>}
       {!loading && error && <h3>{error}</h3>}
       {!loading && (
-        <div>
+        <div className={classes.postGrid}>
           {posts.map((post, index) => (
             <PostItems key={index} {...post} />
           ))}
