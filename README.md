@@ -47,3 +47,7 @@ Para correr la aplicación ejecutar `npm start`
   6.1 Creación del folder: `Login`.<br />
   6.2 Creación de estructura de Login y Estilos (sólo muestra).<br />
   6.3 Añadido Login a las rutas.<br />
+
+## 7. Fin de la aplicación: <br />
+  7.1 Revisión de app.<br />
+  7.2 Subida a Github.<br />
